@@ -37,3 +37,13 @@ if (nota >= 3.0) {
 } else {
   console.log("Reprobado");
 }
+
+//Ejercicio D5 – Verificación de descuento
+let esMiembro = true;
+let montoCompra = 120000;
+
+if (esMiembro || montoCompra > 100000) {
+  console.log("Descuento aplicado");
+} else {
+  console.log("Sin descuento");
+}
