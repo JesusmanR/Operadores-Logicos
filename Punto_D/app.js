@@ -19,3 +19,13 @@ if (edad < 12) {
   console.log("Entrada adulto: $10.000");
 }
 
+//Ejercicio D3 – Permiso de conducción
+let edad = 20;
+let tieneLicencia = true;
+
+if (edad >= 18 && tieneLicencia) {
+  console.log("Puede conducir");
+} else {
+  console.log("No puede conducir");
+}
+
