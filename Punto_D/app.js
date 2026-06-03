@@ -29,3 +29,11 @@ if (edad >= 18 && tieneLicencia) {
   console.log("No puede conducir");
 }
 
+//Ejercicio D4 – Evaluación académica
+let nota = 3.8;
+
+if (nota >= 3.0) {
+  console.log("Aprobado");
+} else {
+  console.log("Reprobado");
+}
